@@ -1,0 +1,144 @@
+
+
+body {
+ background-position: center top;
+}
+
+/*----------------------------------------------------------------------
+    Header & Navigation (#xg_head and descendants)
+----------------------------------------------------------------------*/
+#xg_masthead {
+margin-bottom:240px;
+background:none;
+}
+#xg_head > #xg_masthead {
+ height: auto;
+}
+#xg_masthead p#xg_sitename {
+ padding:10px 0 0 10px;
+}
+#xg_masthead p#xg_sitedesc {
+ padding:0 0 0 50px;
+}
+#xg_navigation ul {
+
+ margin-top: 108px;
+}
+#xg_navigation ul li {
+ text-transform:uppercase;
+}
+#xg_navigation ul li a {
+ background-color: #101010;
+}
+#xg_navigation ul li a:hover {
+ color: #ccc;
+}
+
+
+/*----------------------------------------------------------------------
+    Body (#xg_body and descendants)
+----------------------------------------------------------------------*/
+#xg_body {
+    background-color:transparent;
+}
+h1,
+.xg_module_head h2,
+.xg_module_body h3 {
+ text-transform:uppercase;
+}
+#xg #xg_body h1 {
+    color: #999999;
+}
+.xg_module {
+ margin-bottom: 2em;
+}
+.xg_module_head {
+ margin-bottom:0;
+
+}
+.xg_module_body,
+.xg_module_foot {
+ border-bottom: 1px solid #333;
+}
+ul.pagination li.this span {
+    background-color: #2C2A2A;
+    border: 1px solid #191818;
+    color: #F07E0B;
+}
+.xg_module_body h3,
+.xg_module_body caption {
+    color: #ccc;
+}
+#xg_body ul.navigation {
+ position: static;
+ float: left;
+ clear: both;
+ border-bottom: 1px solid #333;
+}
+#xg_body ul.navigation a {
+ color: #ccc;
+}
+
+/*----------------------------------------------------------------------
+    Footer (#xg_foot and descendants)
+----------------------------------------------------------------------*/
+#xg_foot,
+#xg_foot a {
+
+    color:#777;
+}
+
+
+.xg_widget_main_authorization .xg_module {
+    background-color: #000;
+}
+
+.xg_module_head{
+background: none;
+background-image: url(http//www.kidrock.com/img/transp48.png);
+padding:15px 10px 15px 10px;
+margin-bottom:20px;
+}
+
+.xg_module_head .button{
+border:0px;
+background: none;
+}
+
+.xg_module_head .button a{
+color:#fff;
+}
+
+#xg_navigation li{
+padding:5px;
+}
+
+.xg_module_body{
+padding-top:10px;
+padding-bottom:10px;
+}
+
+#xg_navigation ul li a, ul.page_tabs li{
+background:none;
+color:#fff;
+}
+
+#xg_navigation ul li.this a, ul.page_tabs li.this{
+background:none;
+background-image: url(http//www.kidrock.com/img/transp48.png);
+}
+
+
+#xg_navigation li{
+font-family:Georgia,"Times New Roman",Times,serif;
+}
+
+#xg_navigation ul{
+margin:0px;
+}
+
+#xg_navigation {
+width:835px;
+margin-right:auto;
+margin-left:auto;
+}
